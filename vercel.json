@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/.netlify/scripts/:path*", "destination": "/blank.js" },
     { "source": "/(.*)", "destination": "https://vihuongmaiworkshop.netlify.app/$1" }
   ]
 }
