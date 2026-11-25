@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/:path*", "destination": "https://vihuongmaiworkshop.netlify.app/:path*" }
+    { "source": "/(.*)", "destination": "https://vihuongmaiworkshop.netlify.app/$1" }
   ]
 }
