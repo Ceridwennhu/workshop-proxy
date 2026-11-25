@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/:path*", "destination": "https://vihuongmaiworkshop.netlify.app/:path*" }
+  ]
+}
